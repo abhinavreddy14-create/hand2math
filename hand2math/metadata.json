@@ -1,0 +1,6 @@
+{
+  "name": "Hand2Math",
+  "description": "Hybrid Deep Learning and Symbolic AI Tutor for Handwritten Mathematics",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

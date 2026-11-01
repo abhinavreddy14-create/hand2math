@@ -1,0 +1,1517 @@
+{
+  "feature_1_recognition": [
+    {
+      "test_num": 1,
+      "target": "0",
+      "description": "Single Digit 0",
+      "recognized": "0",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "0",
+        "symbols": [
+          "0"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 2,
+      "target": "1",
+      "description": "Single Digit 1",
+      "recognized": "1",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "1",
+        "symbols": [
+          "1"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 3,
+      "target": "2",
+      "description": "Single Digit 2",
+      "recognized": "2",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "2",
+        "symbols": [
+          "2"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 4,
+      "target": "3",
+      "description": "Single Digit 3",
+      "recognized": "3",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "3",
+        "symbols": [
+          "3"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 5,
+      "target": "4",
+      "description": "Single Digit 4",
+      "recognized": "4",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "4",
+        "symbols": [
+          "4"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 6,
+      "target": "5",
+      "description": "Single Digit 5",
+      "recognized": "5",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "5",
+        "symbols": [
+          "5"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 7,
+      "target": "6",
+      "description": "Single Digit 6",
+      "recognized": "6",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "6",
+        "symbols": [
+          "6"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 8,
+      "target": "7",
+      "description": "Single Digit 7",
+      "recognized": "7",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "7",
+        "symbols": [
+          "7"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 9,
+      "target": "8",
+      "description": "Single Digit 8",
+      "recognized": "8",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "8",
+        "symbols": [
+          "8"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 10,
+      "target": "9",
+      "description": "Single Digit 9",
+      "recognized": "9",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "9",
+        "symbols": [
+          "9"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 11,
+      "target": "+",
+      "description": "Operator Plus (+)",
+      "recognized": "+",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "+",
+        "symbols": [
+          "+"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 12,
+      "target": "-",
+      "description": "Operator Minus (-)",
+      "recognized": "-",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "-",
+        "symbols": [
+          "-"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 13,
+      "target": "=",
+      "description": "Operator Equals (=)",
+      "recognized": "=",
+      "confidence": 0.98,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "=",
+        "symbols": [
+          "="
+        ],
+        "confidence": 0.98,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 14,
+      "target": "x",
+      "description": "Variable x",
+      "recognized": "x",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "x",
+        "symbols": [
+          "x"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 15,
+      "target": "y",
+      "description": "Variable y",
+      "recognized": "y",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "y",
+        "symbols": [
+          "y"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 16,
+      "target": "2 + 2",
+      "description": "Arithmetic Expression (2 + 2)",
+      "recognized": "2 + 2",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "2 + 2",
+        "symbols": [
+          "2",
+          "+",
+          "2"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 17,
+      "target": "2x = 8",
+      "description": "Linear Equation (2x = 8)",
+      "recognized": "2x = 8",
+      "confidence": 0.99,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "2x = 8",
+        "symbols": [
+          "2",
+          "x",
+          "=",
+          "8"
+        ],
+        "confidence": 0.99,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 18,
+      "target": "5 - 3 = 2",
+      "description": "Arithmetic Equation (5 - 3 = 2)",
+      "recognized": "5 - 3 = 2",
+      "confidence": 0.99,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "5 - 3 = 2",
+        "symbols": [
+          "5",
+          "-",
+          "3",
+          "=",
+          "2"
+        ],
+        "confidence": 0.99,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 19,
+      "target": "x^2 = 9",
+      "description": "Quadratic Expression (x^2 = 9)",
+      "recognized": "x^2 = 9",
+      "confidence": 0.99,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "x^2 = 9",
+        "symbols": [
+          "x",
+          "2",
+          "=",
+          "9"
+        ],
+        "confidence": 0.99,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    },
+    {
+      "test_num": 20,
+      "target": "3x + 1 = 7",
+      "description": "Multi-term Equation (3x + 1 = 7)",
+      "recognized": "3x + 1 = 7",
+      "confidence": 1.0,
+      "success": true,
+      "passed": true,
+      "details": {
+        "success": true,
+        "expression": "3x + 1 = 7",
+        "symbols": [
+          "3",
+          "x",
+          "+",
+          "1",
+          "=",
+          "7"
+        ],
+        "confidence": 1.0,
+        "pipeline": "MultiStage-AdaptiveThreshold-CNN"
+      }
+    }
+  ],
+  "feature_2_solver": [
+    {
+      "test_num": 1,
+      "input": "7 + 8",
+      "description": "Basic addition",
+      "expected": "15",
+      "final_answer": "15",
+      "steps": [
+        "7 + 8",
+        "Combine over common denominator: = 15"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 2,
+      "input": "25 - 12 + 4",
+      "description": "Multi-term arithmetic",
+      "expected": "17",
+      "final_answer": "17",
+      "steps": [
+        "25 - 12 + 4",
+        "Combine over common denominator: = 17"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 3,
+      "input": "3 * 5 + 4",
+      "description": "PEMDAS multiplication first",
+      "expected": "19",
+      "final_answer": "19.00",
+      "steps": [
+        "3 * 5 + 4",
+        "Apply Order of Operations (PEMDAS: Multiplication & Division first):",
+        "= 15 + 4",
+        "Perform Addition & Subtraction:",
+        "= 19.00"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 4,
+      "input": "15 * (4 + 6) / 5 - 8",
+      "description": "Complex PEMDAS with parentheses",
+      "expected": "22",
+      "final_answer": "22",
+      "steps": [
+        "15 * (4 + 6) / 5 - 8",
+        "Combine over common denominator: = 22"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 5,
+      "input": "2^5 - 3^2",
+      "description": "Powers and exponents",
+      "expected": "23",
+      "final_answer": "23",
+      "steps": [
+        "2^5 - 3^2",
+        "Combine over common denominator: = 23"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 6,
+      "input": "sqrt(144)",
+      "description": "Perfect square root",
+      "expected": "12",
+      "final_answer": "12",
+      "steps": [
+        "sqrt(144)",
+        "\u221a144 = 12 (since 12\u00b2 = 144)"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 7,
+      "input": "sqrt(50)",
+      "description": "Radical simplification",
+      "expected": "5*sqrt(2)",
+      "final_answer": "5*sqrt(2)",
+      "steps": [
+        "sqrt(50)",
+        "Combine over common denominator: = 5*sqrt(2)"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 8,
+      "input": "(1/2) + (1/4)",
+      "description": "Fraction addition",
+      "expected": "3/4",
+      "final_answer": "3/4",
+      "steps": [
+        "(1/2) + (1/4)",
+        "Find Least Common Denominator (LCD) of 2 and 4: LCD = 4",
+        "Convert fractions to common denominator:",
+        "(2/4) + (1/4)",
+        "Add numerators over common denominator:",
+        "(2 + 1) / 4 = 3/4"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 9,
+      "input": "(3/5) * (10/9)",
+      "description": "Fraction multiplication",
+      "expected": "2/3",
+      "final_answer": "2/3",
+      "steps": [
+        "(3/5) * (10/9)",
+        "Multiply numerators and denominators: (3 * 10) / (5 * 9) = 30/45",
+        "Reduce fraction by dividing by 15: = 2/3"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 10,
+      "input": "(3/4) - (1/3)",
+      "description": "Fraction subtraction",
+      "expected": "5/12",
+      "final_answer": "5/12",
+      "steps": [
+        "(3/4) - (1/3)",
+        "Find Least Common Denominator (LCD) of 4 and 3: LCD = 12",
+        "Convert fractions: (9/12) - (4/12)",
+        "Subtract numerators: (9 - 4) / 12 = 5/12"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 11,
+      "input": "2x + 5 = 15",
+      "description": "Standard linear equation",
+      "expected": "x = 5",
+      "final_answer": "x = 5",
+      "steps": [
+        "2x + 5 = 15",
+        "Subtract 5 from both sides:",
+        "2x = 10",
+        "Divide both sides by 2:",
+        "x = 5"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 12,
+      "input": "-3x + 9 = 0",
+      "description": "Linear equation with negative coefficient",
+      "expected": "x = 3",
+      "final_answer": "x = 3",
+      "steps": [
+        "-3x + 9 = 0",
+        "Subtract 9 from both sides:",
+        "-3x = -9",
+        "Divide both sides by -3:",
+        "x = 3"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 13,
+      "input": "4x - 12 = 28",
+      "description": "Linear equation with subtraction",
+      "expected": "x = 10",
+      "final_answer": "x = 10",
+      "steps": [
+        "4x - 12 = 28",
+        "Add 12 to both sides:",
+        "4x = 40",
+        "Divide both sides by 4:",
+        "x = 10"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 14,
+      "input": "7x = 49",
+      "description": "Single step linear equation",
+      "expected": "x = 7",
+      "final_answer": "x = 7",
+      "steps": [
+        "7x = 49",
+        "Divide both sides by 7:",
+        "x = 49 / 7",
+        "x = 7"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 15,
+      "input": "3(x - 4) = 18",
+      "description": "Linear equation with distributive property",
+      "expected": "x = 10",
+      "final_answer": "x = 10",
+      "steps": [
+        "3(x - 4) = 18",
+        "Apply the Distributive Property (multiply 3 by each term inside):",
+        "3x - 12 = 18",
+        "Isolate variable term:",
+        "3x = 30",
+        "Divide by 3:",
+        "x = 10"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 16,
+      "input": "2(3x + 1) = 20",
+      "description": "Parentheses with inner coefficient",
+      "expected": "x = 3",
+      "final_answer": "x = 3",
+      "steps": [
+        "2(3x + 1) = 20",
+        "Apply the Distributive Property (multiply 2 by each term inside):",
+        "6x + 2 = 20",
+        "Isolate variable term:",
+        "6x = 18",
+        "Divide by 6:",
+        "x = 3"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 17,
+      "input": "5x + 3 = 2x + 18",
+      "description": "Variables on both sides",
+      "expected": "x = 5",
+      "final_answer": "x = 5",
+      "steps": [
+        "5x + 3 = 2x + 18",
+        "Subtract 2x from both sides:",
+        "3x + 3 = 18",
+        "Subtract 3 from both sides:",
+        "3x = 15",
+        "Divide both sides by 3:",
+        "x = 5"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 18,
+      "input": "x^2 - 5x + 6 = 0",
+      "description": "Quadratic equation with two positive roots",
+      "expected": "2, 3",
+      "final_answer": "x = 3, 2",
+      "steps": [
+        "x^2 - 5x + 6 = 0",
+        "Standard Form: a = 1, b = -5, c = 6",
+        "Factor the quadratic into binomials:",
+        "(x - 3)(x - 2) = 0",
+        "Apply Zero-Product Property (x - 3 = 0 or x - 2 = 0):",
+        "x = 3 or x = 2"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 19,
+      "input": "x^2 - 16 = 0",
+      "description": "Difference of squares quadratic",
+      "expected": "-4, 4",
+      "final_answer": "x = \u00b14",
+      "steps": [
+        "x^2 - 16 = 0",
+        "Add 16 to both sides: x\u00b2 = 16",
+        "Take the square root of both sides: x = \u00b1\u221a16",
+        "x = 4 or x = -4"
+      ],
+      "passed": true
+    },
+    {
+      "test_num": 20,
+      "input": "2x^2 + 5x - 3 = 0",
+      "description": "Quadratic with leading coefficient 2",
+      "expected": "-3, 1/2",
+      "final_answer": "x = 0.50, -3",
+      "steps": [
+        "2x^2 + 5x - 3 = 0",
+        "Use Quadratic Formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)",
+        "Coefficients: a = 2, b = 5, c = -3",
+        "Discriminant: \u0394 = (5)\u00b2 - 4(2)(-3) = 49",
+        "x = 0.50, -3"
+      ],
+      "passed": true
+    }
+  ],
+  "feature_3_word_problems": [
+    {
+      "test_num": 1,
+      "input": "Twice a number plus 5 is 15",
+      "description": "Doubled + 5 is 15",
+      "translated_expression": "2x + 5 = 15",
+      "context": "Let x be the unknown number. According to the problem: 2x + 5 = 15.",
+      "final_answer": "x = 5",
+      "expected": "x = 5",
+      "passed": true
+    },
+    {
+      "test_num": 2,
+      "input": "A number doubled and increased by 8 is 24",
+      "description": "Doubled and increased",
+      "translated_expression": "2x + 8 = 24",
+      "context": "Let x be the unknown number. According to the problem: 2x + 8 = 24.",
+      "final_answer": "x = 8",
+      "expected": "x = 8",
+      "passed": true
+    },
+    {
+      "test_num": 3,
+      "input": "Three times a number plus 4 is 19",
+      "description": "3 times number + 4",
+      "translated_expression": "3x + 4 = 19",
+      "context": "Let x be the unknown number. According to the problem: 3x + 4 = 19.",
+      "final_answer": "x = 5",
+      "expected": "x = 5",
+      "passed": true
+    },
+    {
+      "test_num": 4,
+      "input": "Four times a number minus 7 is 25",
+      "description": "4 times number - 7",
+      "translated_expression": "4x - 7 = 25",
+      "context": "Let x be the unknown number: 4x - 7 = 25.",
+      "final_answer": "x = 8",
+      "expected": "x = 8",
+      "passed": true
+    },
+    {
+      "test_num": 5,
+      "input": "A number doubled minus 6 is 14",
+      "description": "Doubled minus 6",
+      "translated_expression": "2x - 6 = 14",
+      "context": "Let x be the unknown number: 2x - 6 = 14.",
+      "final_answer": "x = 10",
+      "expected": "x = 10",
+      "passed": true
+    },
+    {
+      "test_num": 6,
+      "input": "The sum of three consecutive integers is 42",
+      "description": "Consecutive integers 42",
+      "translated_expression": "3x + 3 = 42",
+      "context": "Let the consecutive integers be x, x+1, and x+2. Their sum is x + (x+1) + (x+2) = 3x + 3 = 42.",
+      "final_answer": "x = 13",
+      "expected": "x = 13",
+      "passed": true
+    },
+    {
+      "test_num": 7,
+      "input": "The sum of three consecutive integers is 69",
+      "description": "Consecutive integers 69",
+      "translated_expression": "3x + 3 = 69",
+      "context": "Let the consecutive integers be x, x+1, and x+2. Their sum is x + (x+1) + (x+2) = 3x + 3 = 69.",
+      "final_answer": "x = 22",
+      "expected": "x = 22",
+      "passed": true
+    },
+    {
+      "test_num": 8,
+      "input": "15 percent of 240",
+      "description": "Percentage of number",
+      "translated_expression": "0.15 * 240",
+      "context": "15% of 240 = (15 / 100) * 240",
+      "final_answer": "36.0000000000000",
+      "expected": "36",
+      "passed": true
+    },
+    {
+      "test_num": 9,
+      "input": "25% of 80",
+      "description": "Percentage of number with %",
+      "translated_expression": "0.25 * 80",
+      "context": "25% of 80 = (25 / 100) * 80",
+      "final_answer": "20.0000000000000",
+      "expected": "20",
+      "passed": true
+    },
+    {
+      "test_num": 10,
+      "input": "Item costs $80 with 25% discount",
+      "description": "Discount calculation",
+      "translated_expression": "80 * (1 - 0.25)",
+      "context": "Sale price after 25% discount on $80 = 80 * (1 - 0.25).",
+      "final_answer": "60.0000000000000",
+      "expected": "60",
+      "passed": true
+    },
+    {
+      "test_num": 11,
+      "input": "A shirt costs $120 with 30% discount",
+      "description": "Discount calculation",
+      "translated_expression": "120 * (1 - 0.3)",
+      "context": "Sale price after 30% discount on $120 = 120 * (1 - 0.3).",
+      "final_answer": "84.0000000000000",
+      "expected": "84",
+      "passed": true
+    },
+    {
+      "test_num": 12,
+      "input": "Area of a circle with radius 7",
+      "description": "Circle area",
+      "translated_expression": "(22/7) * 7^2",
+      "context": "Area of circle formula A = \u03c0r\u00b2 (using \u03c0 \u2248 22/7): A = (22/7) * 7\u00b2.",
+      "final_answer": "154",
+      "expected": "154",
+      "passed": true
+    },
+    {
+      "test_num": 13,
+      "input": "Circumference of circle with radius 7",
+      "description": "Circle circumference",
+      "translated_expression": "2 * (22/7) * 7",
+      "context": "Circumference formula C = 2\u03c0r: C = 2 * (22/7) * 7.",
+      "final_answer": "44",
+      "expected": "44",
+      "passed": true
+    },
+    {
+      "test_num": 14,
+      "input": "Rectangle with length 10 and width 6 find area",
+      "description": "Rectangle area",
+      "translated_expression": "10 * 6",
+      "context": "Area of rectangle = length * width = 10 * 6.",
+      "final_answer": "60",
+      "expected": "60",
+      "passed": true
+    },
+    {
+      "test_num": 15,
+      "input": "Perimeter of rectangle with length 10 and width 6",
+      "description": "Rectangle perimeter",
+      "translated_expression": "2 * (10 + 6)",
+      "context": "Perimeter of rectangle = 2(length + width) = 2(10 + 6).",
+      "final_answer": "32",
+      "expected": "32",
+      "passed": true
+    },
+    {
+      "test_num": 16,
+      "input": "Legs are 6 and 8. Find hypotenuse",
+      "description": "Pythagorean theorem 6, 8",
+      "translated_expression": "sqrt(6^2 + 8^2)",
+      "context": "By the Pythagorean theorem: c = \u221a(6\u00b2 + 8\u00b2)",
+      "final_answer": "10",
+      "expected": "10",
+      "passed": true
+    },
+    {
+      "test_num": 17,
+      "input": "Legs are 5 and 12. Find hypotenuse",
+      "description": "Pythagorean theorem 5, 12",
+      "translated_expression": "sqrt(5^2 + 12^2)",
+      "context": "By the Pythagorean theorem: c = \u221a(5\u00b2 + 12\u00b2)",
+      "final_answer": "13",
+      "expected": "13",
+      "passed": true
+    },
+    {
+      "test_num": 18,
+      "input": "Mean of 10, 20, 30, 40",
+      "description": "Arithmetic mean",
+      "translated_expression": "(10 + 20 + 30 + 40) / 4",
+      "context": "Mean = Sum of values / Count = (10 + 20 + 30 + 40) / 4.",
+      "final_answer": "25",
+      "expected": "25",
+      "passed": true
+    },
+    {
+      "test_num": 19,
+      "input": "Travels 180 km in 3 hours find speed",
+      "description": "Speed distance time",
+      "translated_expression": "180 / 3",
+      "context": "Speed = Distance / Time = 180 / 3.",
+      "final_answer": "60",
+      "expected": "60",
+      "passed": true
+    },
+    {
+      "test_num": 20,
+      "input": "Solve for x: 5x - 15 = 35",
+      "description": "Embedded equation in English",
+      "translated_expression": "5x - 15 = 35",
+      "context": "Solving equation: 5x - 15 = 35",
+      "final_answer": "x = 10",
+      "expected": "x = 10",
+      "passed": true
+    }
+  ],
+  "feature_4_explanation": [
+    {
+      "test_num": 1,
+      "expression": "2x + 5 = 15",
+      "steps": [
+        "2x + 5 = 15",
+        "2x = 10",
+        "x = 5"
+      ],
+      "final_answer": "x = 5",
+      "explanation_length": 374,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 2x + 5 = 15  Step 1: ",
+      "passed": true
+    },
+    {
+      "test_num": 2,
+      "expression": "3x - 9 = 12",
+      "steps": [
+        "3x - 9 = 12",
+        "3x = 21",
+        "x = 7"
+      ],
+      "final_answer": "x = 7",
+      "explanation_length": 374,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 3x - 9 = 12  Step 1: ",
+      "passed": true
+    },
+    {
+      "test_num": 3,
+      "expression": "5x = 35",
+      "steps": [
+        "5x = 35",
+        "x = 7"
+      ],
+      "final_answer": "x = 7",
+      "explanation_length": 306,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 5x = 35  Step 1: Eval",
+      "passed": true
+    },
+    {
+      "test_num": 4,
+      "expression": "3(x - 4) = 18",
+      "steps": [
+        "3(x - 4) = 18",
+        "3x - 12 = 18",
+        "3x = 30",
+        "x = 10"
+      ],
+      "final_answer": "x = 10",
+      "explanation_length": 446,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 3(x - 4) = 18  Step 1",
+      "passed": true
+    },
+    {
+      "test_num": 5,
+      "expression": "4(2x + 3) = 44",
+      "steps": [
+        "4(2x + 3) = 44",
+        "8x + 12 = 44",
+        "8x = 32",
+        "x = 4"
+      ],
+      "final_answer": "x = 4",
+      "explanation_length": 445,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 4(2x + 3) = 44  Step ",
+      "passed": true
+    },
+    {
+      "test_num": 6,
+      "expression": "5x + 3 = 2x + 18",
+      "steps": [
+        "5x + 3 = 2x + 18",
+        "3x + 3 = 18",
+        "3x = 15",
+        "x = 5"
+      ],
+      "final_answer": "x = 5",
+      "explanation_length": 448,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 5x + 3 = 2x + 18  Ste",
+      "passed": true
+    },
+    {
+      "test_num": 7,
+      "expression": "7x - 4 = 3x + 16",
+      "steps": [
+        "7x - 4 = 3x + 16",
+        "4x - 4 = 16",
+        "4x = 20",
+        "x = 5"
+      ],
+      "final_answer": "x = 5",
+      "explanation_length": 448,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 7x - 4 = 3x + 16  Ste",
+      "passed": true
+    },
+    {
+      "test_num": 8,
+      "expression": "x^2 - 5x + 6 = 0",
+      "steps": [
+        "x^2 - 5x + 6 = 0",
+        "(x - 2)(x - 3) = 0",
+        "x = 2, 3"
+      ],
+      "final_answer": "x = 2, 3",
+      "explanation_length": 406,
+      "explanation_snippet": "Core Concept: Quadratic Equation Resolution via Factoring & Zero-Product Property Target Expression: x^2 - 5x + 6 = 0  S",
+      "passed": true
+    },
+    {
+      "test_num": 9,
+      "expression": "x^2 - 16 = 0",
+      "steps": [
+        "x^2 - 16 = 0",
+        "(x - 4)(x + 4) = 0",
+        "x = -4, 4"
+      ],
+      "final_answer": "x = -4, 4",
+      "explanation_length": 401,
+      "explanation_snippet": "Core Concept: Quadratic Equation Resolution via Factoring & Zero-Product Property Target Expression: x^2 - 16 = 0  Step ",
+      "passed": true
+    },
+    {
+      "test_num": 10,
+      "expression": "x^2 + 6x + 9 = 0",
+      "steps": [
+        "x^2 + 6x + 9 = 0",
+        "(x + 3)^2 = 0",
+        "x = -3"
+      ],
+      "final_answer": "x = -3",
+      "explanation_length": 395,
+      "explanation_snippet": "Core Concept: Quadratic Equation Resolution via Factoring & Zero-Product Property Target Expression: x^2 + 6x + 9 = 0  S",
+      "passed": true
+    },
+    {
+      "test_num": 11,
+      "expression": "(1/2) + (1/4)",
+      "steps": [
+        "(1/2) + (1/4)",
+        "= 2/4 + 1/4",
+        "= 3/4"
+      ],
+      "final_answer": "3/4",
+      "explanation_length": 243,
+      "explanation_snippet": "Core Concept: Fraction Arithmetic via Least Common Denominators (LCD) Target Expression: (1/2) + (1/4)  Step 1: Evaluate",
+      "passed": true
+    },
+    {
+      "test_num": 12,
+      "expression": "(3/4) - (1/3)",
+      "steps": [
+        "(3/4) - (1/3)",
+        "= 9/12 - 4/12",
+        "= 5/12"
+      ],
+      "final_answer": "5/12",
+      "explanation_length": 247,
+      "explanation_snippet": "Core Concept: Fraction Arithmetic via Least Common Denominators (LCD) Target Expression: (3/4) - (1/3)  Step 1: Evaluate",
+      "passed": true
+    },
+    {
+      "test_num": 13,
+      "expression": "(3/5) * (10/9)",
+      "steps": [
+        "(3/5) * (10/9)",
+        "= 30/45",
+        "= 2/3"
+      ],
+      "final_answer": "2/3",
+      "explanation_length": 243,
+      "explanation_snippet": "Core Concept: Arithmetic Simplification via Order of Operations (PEMDAS) Target Expression: (3/5) * (10/9)  Step 1: Eval",
+      "passed": true
+    },
+    {
+      "test_num": 14,
+      "expression": "15 * (4 + 6) / 5 - 8",
+      "steps": [
+        "15 * 10 / 5 - 8",
+        "= 150 / 5 - 8",
+        "= 30 - 8",
+        "= 22"
+      ],
+      "final_answer": "22",
+      "explanation_length": 314,
+      "explanation_snippet": "Core Concept: Arithmetic Simplification via Order of Operations (PEMDAS) Target Expression: 15 * (4 + 6) / 5 - 8  Step 1",
+      "passed": true
+    },
+    {
+      "test_num": 15,
+      "expression": "3 * 5 + 4",
+      "steps": [
+        "3 * 5 + 4",
+        "= 15 + 4",
+        "= 19"
+      ],
+      "final_answer": "19",
+      "explanation_length": 237,
+      "explanation_snippet": "Core Concept: Arithmetic Simplification via Order of Operations (PEMDAS) Target Expression: 3 * 5 + 4  Step 1: Evaluate ",
+      "passed": true
+    },
+    {
+      "test_num": 16,
+      "expression": "2^4 + 3^2",
+      "steps": [
+        "16 + 9",
+        "= 25"
+      ],
+      "final_answer": "25",
+      "explanation_length": 185,
+      "explanation_snippet": "Core Concept: Quadratic Equation Resolution via Factoring & Zero-Product Property Target Expression: 2^4 + 3^2  Step 1: ",
+      "passed": true
+    },
+    {
+      "test_num": 17,
+      "expression": "sqrt(144)",
+      "steps": [
+        "sqrt(144)",
+        "= 12"
+      ],
+      "final_answer": "12",
+      "explanation_length": 164,
+      "explanation_snippet": "Core Concept: Radical Simplification & Principal Square Root Target Expression: sqrt(144)  Step 1: Evaluate and simplify",
+      "passed": true
+    },
+    {
+      "test_num": 18,
+      "expression": "-2x + 10 = 4",
+      "steps": [
+        "-2x + 10 = 4",
+        "-2x = -6",
+        "x = 3"
+      ],
+      "final_answer": "x = 3",
+      "explanation_length": 377,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: -2x + 10 = 4  Step 1:",
+      "passed": true
+    },
+    {
+      "test_num": 19,
+      "expression": "6x + 12 = 0",
+      "steps": [
+        "6x + 12 = 0",
+        "6x = -12",
+        "x = -2"
+      ],
+      "final_answer": "x = -2",
+      "explanation_length": 378,
+      "explanation_snippet": "Core Concept: Linear Equation Isolation via Inverse Operations (Balance Method) Target Expression: 6x + 12 = 0  Step 1: ",
+      "passed": true
+    },
+    {
+      "test_num": 20,
+      "expression": "0.25 * 160",
+      "steps": [
+        "0.25 * 160",
+        "= 40"
+      ],
+      "final_answer": "40",
+      "explanation_length": 177,
+      "explanation_snippet": "Core Concept: Arithmetic Simplification via Order of Operations (PEMDAS) Target Expression: 0.25 * 160  Step 1: Evaluate",
+      "passed": true
+    }
+  ],
+  "feature_5_chat": [
+    {
+      "test_num": 1,
+      "question": "Why do we subtract 5 from both sides?",
+      "context_expr": "2x + 5 = 15",
+      "reply": "We apply inverse operations to both sides of the equation (such as subtracting or adding terms) to maintain equality while isolating the variable term on one side.",
+      "passed": true
+    },
+    {
+      "test_num": 2,
+      "question": "Why do we divide by 2 in the second step?",
+      "context_expr": "2x = 10",
+      "reply": "We apply inverse operations to both sides of the equation (such as subtracting or adding terms) to maintain equality while isolating the variable term on one side.",
+      "passed": true
+    },
+    {
+      "test_num": 3,
+      "question": "Can you explain what PEMDAS means?",
+      "context_expr": "15 * (4 + 6) / 5 - 8",
+      "reply": "PEMDAS specifies the order of operations: Parentheses, Exponents, Multiplication & Division (left to right), and Addition & Subtraction (left to right).",
+      "passed": true
+    },
+    {
+      "test_num": 4,
+      "question": "How do you solve a quadratic equation?",
+      "context_expr": "x^2 - 5x + 6 = 0",
+      "reply": "Quadratic equations can be solved by factoring into (x - r\u2081)(x - r\u2082) = 0 using the Zero-Product Property, or by using the quadratic formula x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a). Both methods produce x = 2, 3.",
+      "passed": true
+    },
+    {
+      "test_num": 5,
+      "question": "What is a Least Common Denominator (LCD)?",
+      "context_expr": "(1/2) + (1/4)",
+      "reply": "To add or subtract fractions, find the Least Common Denominator (LCD), convert each fraction to an equivalent fraction with that denominator, and then add or subtract the numerators.",
+      "passed": true
+    },
+    {
+      "test_num": 6,
+      "question": "How can I check or verify if my answer is correct?",
+      "context_expr": "2x + 5 = 15",
+      "reply": "To verify, plug x = 5 back into the original expression \"2x + 5 = 15\". If both sides are equal, the solution is 100% verified!",
+      "passed": true
+    },
+    {
+      "test_num": 7,
+      "question": "Can you give me a similar practice problem?",
+      "context_expr": "3x - 5 = 16",
+      "reply": "Try solving: 3x + 5 = 20. Subtract 5 to get 3x = 15, then divide by 3 to get x = 5!",
+      "passed": true
+    },
+    {
+      "test_num": 8,
+      "question": "Can you explain this more simply?",
+      "context_expr": "2x + 5 = 15",
+      "reply": "In 2x + 5 = 15, each algebraic step keeps the equation balanced to arrive at the verified solution: x = 5.",
+      "passed": true
+    },
+    {
+      "test_num": 9,
+      "question": "What happens if the coefficient is negative?",
+      "context_expr": "-3x + 9 = 0",
+      "reply": "Dividing both sides by the coefficient scales the equation down to a single unit of the variable, giving the exact solution: x = 3.",
+      "passed": true
+    },
+    {
+      "test_num": 10,
+      "question": "Why do we add instead of subtract?",
+      "context_expr": "4x - 12 = 28",
+      "reply": "We apply inverse operations to both sides of the equation (such as subtracting or adding terms) to maintain equality while isolating the variable term on one side.",
+      "passed": true
+    },
+    {
+      "test_num": 11,
+      "question": "What is the zero product property?",
+      "context_expr": "x^2 - 16 = 0",
+      "reply": "In x^2 - 16 = 0, each algebraic step keeps the equation balanced to arrive at the verified solution: x = -4, 4.",
+      "passed": true
+    },
+    {
+      "test_num": 12,
+      "question": "How do I know which operation to do first?",
+      "context_expr": "3 * 5 + 4",
+      "reply": "In 3 * 5 + 4, each algebraic step keeps the equation balanced to arrive at the verified solution: 19.",
+      "passed": true
+    },
+    {
+      "test_num": 13,
+      "question": "What is the distributive property?",
+      "context_expr": "3(x - 4) = 18",
+      "reply": "In 3(x - 4) = 18, each algebraic step keeps the equation balanced to arrive at the verified solution: x = 10.",
+      "passed": true
+    },
+    {
+      "test_num": 14,
+      "question": "Why do we multiply numerators and denominators in fractions?",
+      "context_expr": "(3/5) * (10/9)",
+      "reply": "We apply inverse operations to both sides of the equation (such as subtracting or adding terms) to maintain equality while isolating the variable term on one side.",
+      "passed": true
+    },
+    {
+      "test_num": 15,
+      "question": "What does square root mean?",
+      "context_expr": "sqrt(144)",
+      "reply": "Quadratic equations can be solved by factoring into (x - r\u2081)(x - r\u2082) = 0 using the Zero-Product Property, or by using the quadratic formula x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a). Both methods produce 12.",
+      "passed": true
+    },
+    {
+      "test_num": 16,
+      "question": "What if an equation has no solution?",
+      "context_expr": "2x + 3 = 2x + 7",
+      "reply": "In 2x + 3 = 2x + 7, each algebraic step keeps the equation balanced to arrive at the verified solution: No solution.",
+      "passed": true
+    },
+    {
+      "test_num": 17,
+      "question": "What is a variable?",
+      "context_expr": "7x = 49",
+      "reply": "In 7x = 49, each algebraic step keeps the equation balanced to arrive at the verified solution: x = 7.",
+      "passed": true
+    },
+    {
+      "test_num": 18,
+      "question": "Why do we isolate x on the left?",
+      "context_expr": "5x = 35",
+      "reply": "We apply inverse operations to both sides of the equation (such as subtracting or adding terms) to maintain equality while isolating the variable term on one side.",
+      "passed": true
+    },
+    {
+      "test_num": 19,
+      "question": "Can I divide first before subtracting?",
+      "context_expr": "2x + 6 = 14",
+      "reply": "We apply inverse operations to both sides of the equation (such as subtracting or adding terms) to maintain equality while isolating the variable term on one side.",
+      "passed": true
+    },
+    {
+      "test_num": 20,
+      "question": "Give me another problem to practice linear equations.",
+      "context_expr": "4x + 8 = 24",
+      "reply": "Try solving: 3x + 5 = 20. Subtract 5 to get 3x = 15, then divide by 3 to get x = 5!",
+      "passed": true
+    }
+  ],
+  "feature_6_practice": [
+    {
+      "test_num": 1,
+      "topic": "Linear Equations",
+      "difficulty": "easy",
+      "student_answer": "5",
+      "expected_answer": "5",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 2,
+      "topic": "Linear Equations",
+      "difficulty": "easy",
+      "student_answer": "x = 5",
+      "expected_answer": "5",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 3,
+      "topic": "Linear Equations",
+      "difficulty": "easy",
+      "student_answer": "6",
+      "expected_answer": "5",
+      "is_correct_returned": false,
+      "expected_is_correct": false,
+      "feedback": "Not quite. Try again.",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 4,
+      "topic": "Linear Equations",
+      "difficulty": "medium",
+      "student_answer": "7",
+      "expected_answer": "7",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 5,
+      "topic": "Linear Equations",
+      "difficulty": "medium",
+      "student_answer": "  7  ",
+      "expected_answer": "7",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 6,
+      "topic": "Linear Equations",
+      "difficulty": "medium",
+      "student_answer": "-7",
+      "expected_answer": "7",
+      "is_correct_returned": false,
+      "expected_is_correct": false,
+      "feedback": "Not quite. Try again.",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 7,
+      "topic": "Linear Equations",
+      "difficulty": "hard",
+      "student_answer": "8",
+      "expected_answer": "8",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 5x - 7 = 2x + 17",
+      "passed": true
+    },
+    {
+      "test_num": 8,
+      "topic": "Linear Equations",
+      "difficulty": "hard",
+      "student_answer": "12",
+      "expected_answer": "8",
+      "is_correct_returned": false,
+      "expected_is_correct": false,
+      "feedback": "Not quite. Try again.",
+      "generated_problem": "Solve for x: 5x - 7 = 2x + 17",
+      "passed": true
+    },
+    {
+      "test_num": 9,
+      "topic": "Quadratic Equations",
+      "difficulty": "easy",
+      "student_answer": "2, 3",
+      "expected_answer": "2, 3",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 10,
+      "topic": "Quadratic Equations",
+      "difficulty": "easy",
+      "student_answer": "4",
+      "expected_answer": "4",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 11,
+      "topic": "Fractions",
+      "difficulty": "easy",
+      "student_answer": "1/2",
+      "expected_answer": "1/2",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 12,
+      "topic": "Fractions",
+      "difficulty": "easy",
+      "student_answer": "0.5",
+      "expected_answer": "0.5",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 13,
+      "topic": "Fractions",
+      "difficulty": "medium",
+      "student_answer": "3/4",
+      "expected_answer": "3/4",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 14,
+      "topic": "Fractions",
+      "difficulty": "medium",
+      "student_answer": "0.75",
+      "expected_answer": "0.75",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 15,
+      "topic": "Arithmetic",
+      "difficulty": "easy",
+      "student_answer": "20",
+      "expected_answer": "20",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 16,
+      "topic": "Arithmetic",
+      "difficulty": "medium",
+      "student_answer": "12.5",
+      "expected_answer": "12.5",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 17,
+      "topic": "Arithmetic",
+      "difficulty": "hard",
+      "student_answer": "-15",
+      "expected_answer": "-15",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 5x - 7 = 2x + 17",
+      "passed": true
+    },
+    {
+      "test_num": 18,
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "student_answer": "36",
+      "expected_answer": "36",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 2x + 4 = 14",
+      "passed": true
+    },
+    {
+      "test_num": 19,
+      "topic": "Word Problems",
+      "difficulty": "medium",
+      "student_answer": "$60",
+      "expected_answer": "60",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 3x - 5 = 16",
+      "passed": true
+    },
+    {
+      "test_num": 20,
+      "topic": "Word Problems",
+      "difficulty": "hard",
+      "student_answer": "10",
+      "expected_answer": "10",
+      "is_correct_returned": true,
+      "expected_is_correct": true,
+      "feedback": "Correct! \ud83c\udf89",
+      "generated_problem": "Solve for x: 5x - 7 = 2x + 17",
+      "passed": true
+    }
+  ]
+}

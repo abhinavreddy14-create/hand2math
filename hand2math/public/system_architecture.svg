@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" style="background:#0f172a; font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- Title Banner -->
+  <rect x="50" y="30" width="1500" height="85" rx="16" fill="#1e293b" filter="url(#shadow)"/>
+  <text x="80" y="75" font-size="28" font-weight="bold" fill="#f8fafc">Hand2Math: System Architecture</text>
+  <text x="80" y="100" font-size="16" fill="#94a3b8">Hybrid Neuro-Symbolic Artificial Intelligence Architecture for Handwritten Mathematics</text>
+  <rect x="1330" y="52" width="190" height="38" rx="8" fill="#3b82f6"/>
+  <text x="1425" y="77" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">IEEE / ACM Spec</text>
+
+  <!-- Column 1: Client Presentation Layer -->
+  <g transform="translate(60, 150)">
+    <rect width="330" height="690" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="330" height="55" rx="16" fill="url(#blueGrad)"/>
+    <rect y="40" width="330" height="15" fill="url(#blueGrad)"/>
+    <text x="165" y="35" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">1. Client Interaction Layer</text>
+
+    <rect x="20" y="80" width="290" height="120" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="35" y="110" font-size="16" font-weight="bold" fill="#60a5fa">Drawing Canvas (SPA)</text>
+    <text x="35" y="135" font-size="13" fill="#cbd5e1">• High-DPI Pointer Event Tracking</text>
+    <text x="35" y="155" font-size="13" fill="#cbd5e1">• Continuous Bézier Stroke Smoothing</text>
+    <text x="35" y="175" font-size="13" fill="#cbd5e1">• Touch, Stylus &amp; Mouse Support</text>
+
+    <rect x="20" y="225" width="290" height="120" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="35" y="255" font-size="16" font-weight="bold" fill="#60a5fa">Image Upload Ingestion</text>
+    <text x="35" y="280" font-size="13" fill="#cbd5e1">• Multi-format Base64 Decoder</text>
+    <text x="35" y="300" font-size="13" fill="#cbd5e1">• PNG, JPEG, WebP Slides/Textbooks</text>
+    <text x="35" y="320" font-size="13" fill="#cbd5e1">• Dynamic Canvas Rasterization</text>
+
+    <rect x="20" y="370" width="290" height="120" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="35" y="400" font-size="16" font-weight="bold" fill="#60a5fa">Text &amp; NLP Problem Input</text>
+    <text x="35" y="425" font-size="13" fill="#cbd5e1">• Natural Language Word Problems</text>
+    <text x="35" y="445" font-size="13" fill="#cbd5e1">• Keyboard Math Expression Bar</text>
+    <text x="35" y="465" font-size="13" fill="#cbd5e1">• Immediate Formula Preview</text>
+
+    <rect x="20" y="515" width="290" height="145" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="35" y="545" font-size="16" font-weight="bold" fill="#60a5fa">Interactive Learning UI</text>
+    <text x="35" y="570" font-size="13" fill="#cbd5e1">• KaTeX Real-time Formula Render</text>
+    <text x="35" y="590" font-size="13" fill="#cbd5e1">• Interactive Practice &amp; Quizzes</text>
+    <text x="35" y="610" font-size="13" fill="#cbd5e1">• Concept Exploration Panels</text>
+    <text x="35" y="630" font-size="13" fill="#cbd5e1">• Real-time Tutor Chat Panel</text>
+  </g>
+
+  <!-- Connect 1 to 2 -->
+  <line x1="390" y1="210" x2="430" y2="210" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="390" y1="350" x2="430" y2="350" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Column 2: Computer Vision & Multi-Stage Recognition -->
+  <g transform="translate(435, 150)">
+    <rect width="350" height="690" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="350" height="55" rx="16" fill="url(#purpleGrad)"/>
+    <rect y="40" width="350" height="15" fill="url(#purpleGrad)"/>
+    <text x="175" y="35" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">2. Recognition &amp; Vision Engine</text>
+
+    <rect x="20" y="80" width="310" height="135" rx="12" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="35" y="110" font-size="16" font-weight="bold" fill="#c084fc">Stage 1: Preprocessing</text>
+    <text x="35" y="135" font-size="13" fill="#cbd5e1">• Alpha-channel White Canvas Blending</text>
+    <text x="35" y="155" font-size="13" fill="#cbd5e1">• Dynamic Range Autocontrast Stretching</text>
+    <text x="35" y="175" font-size="13" fill="#cbd5e1">• 3x3 Median Edge-Preserving Filter</text>
+    <text x="35" y="195" font-size="13" fill="#cbd5e1">• Salt &amp; Pepper Sensor De-noising</text>
+
+    <rect x="20" y="235" width="310" height="135" rx="12" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="35" y="265" font-size="16" font-weight="bold" fill="#c084fc">Stage 2: Adaptive Thresholding</text>
+    <text x="35" y="290" font-size="13" fill="#cbd5e1">• Radius-15 BoxBlur Local Mean Matrix</text>
+    <text x="35" y="310" font-size="13" fill="#cbd5e1">• Variable Margin (I &lt; μ - C, C=12)</text>
+    <text x="35" y="330" font-size="13" fill="#cbd5e1">• Luminance Ceiling (I &lt; 210) Shadow Mask</text>
+    <text x="35" y="350" font-size="13" fill="#cbd5e1">• Connected Micro-Speckle Filtering (&lt;8px)</text>
+
+    <rect x="20" y="390" width="310" height="135" rx="12" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="35" y="420" font-size="16" font-weight="bold" fill="#c084fc">Stage 3: CNN Symbol Classifier</text>
+    <text x="35" y="445" font-size="13" fill="#cbd5e1">• 28x28 Aspect-Preserved Normalization</text>
+    <text x="35" y="465" font-size="13" fill="#cbd5e1">• High Confidence Threshold (θ ≥ 0.85)</text>
+    <text x="35" y="485" font-size="13" fill="#cbd5e1">• 4x4 Zoning Density &amp; Euler Hole Topology</text>
+    <text x="35" y="505" font-size="13" fill="#cbd5e1">• Geometric Invariants for +, -, =, x, digits</text>
+
+    <rect x="20" y="545" width="310" height="120" rx="12" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="35" y="575" font-size="16" font-weight="bold" fill="#c084fc">Stage 4: 2D Spatial Assembly</text>
+    <text x="35" y="600" font-size="13" fill="#cbd5e1">• Multi-Line 2D Fraction Reconstruction</text>
+    <text x="35" y="620" font-size="13" fill="#cbd5e1">• Slide Header &amp; Title Stripping (EXAMPLES)</text>
+    <text x="35" y="640" font-size="13" fill="#cbd5e1">• Exponent &amp; Superscript Syntactic Placement</text>
+  </g>
+
+  <!-- Connect 2 to 3 -->
+  <line x1="785" y1="450" x2="825" y2="450" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Column 3: Symbolic Mathematics Engine (Source of Truth) -->
+  <g transform="translate(830, 150)">
+    <rect width="340" height="690" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="340" height="55" rx="16" fill="url(#emeraldGrad)"/>
+    <rect y="40" width="340" height="15" fill="url(#emeraldGrad)"/>
+    <text x="170" y="35" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">3. Symbolic Math Truth Engine</text>
+
+    <rect x="20" y="80" width="300" height="135" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="35" y="110" font-size="16" font-weight="bold" fill="#34d399">Lexical &amp; Implicit Parsing</text>
+    <text x="35" y="135" font-size="13" fill="#cbd5e1">• Implicit Multiplication: 2x, x(5-x), 3(x+1)</text>
+    <text x="35" y="155" font-size="13" fill="#cbd5e1">• Caret Power &amp; Square Root Conversion</text>
+    <text x="35" y="175" font-size="13" fill="#cbd5e1">• LaTeX &amp; Unicode Operator Sanitation</text>
+    <text x="35" y="195" font-size="13" fill="#cbd5e1">• Zero-Discrepancy Syntax Verifier</text>
+
+    <rect x="20" y="235" width="300" height="135" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="35" y="265" font-size="16" font-weight="bold" fill="#34d399">SymPy Computer Algebra (CAS)</text>
+    <text x="35" y="290" font-size="13" fill="#cbd5e1">• Deterministic Mathematical Precision</text>
+    <text x="35" y="310" font-size="13" fill="#cbd5e1">• Zero Hallucination Guarantee</text>
+    <text x="35" y="330" font-size="13" fill="#cbd5e1">• Rational Combinations &amp; Factoring</text>
+    <text x="35" y="350" font-size="13" fill="#cbd5e1">• Dual-Root Quadratic Decomposition</text>
+
+    <rect x="20" y="390" width="300" height="135" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="35" y="420" font-size="16" font-weight="bold" fill="#34d399">Step-by-Step Solver</text>
+    <text x="35" y="445" font-size="13" fill="#cbd5e1">• Linear Isolation (Balance Subtraction)</text>
+    <text x="35" y="465" font-size="13" fill="#cbd5e1">• Coefficient Division &amp; Zero-Product</text>
+    <text x="35" y="485" font-size="13" fill="#cbd5e1">• Polynomial Product Expansion</text>
+    <text x="35" y="505" font-size="13" fill="#cbd5e1">• Common Denominator Rational Merge</text>
+
+    <rect x="20" y="545" width="300" height="120" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="35" y="575" font-size="16" font-weight="bold" fill="#34d399">Word Problem Translation</text>
+    <text x="35" y="600" font-size="13" fill="#cbd5e1">• Rule-Based Semantic Regex Map</text>
+    <text x="35" y="620" font-size="13" fill="#cbd5e1">• Algebraic Equation Synthesis</text>
+    <text x="35" y="640" font-size="13" fill="#cbd5e1">• Unit &amp; Variable Association</text>
+  </g>
+
+  <!-- Connect 3 to 4 -->
+  <line x1="1170" y1="450" x2="1210" y2="450" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Column 4: Pedagogical AI Tutoring Layer -->
+  <g transform="translate(1215, 150)">
+    <rect width="325" height="690" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="325" height="55" rx="16" fill="url(#amberGrad)"/>
+    <rect y="40" width="325" height="15" fill="url(#amberGrad)"/>
+    <text x="162" y="35" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">4. Pedagogical AI Tutor</text>
+
+    <rect x="20" y="80" width="285" height="135" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="35" y="110" font-size="16" font-weight="bold" fill="#fbbf24">Pedagogical Breakdown</text>
+    <text x="35" y="135" font-size="13" fill="#cbd5e1">• Core Concept Identification</text>
+    <text x="35" y="155" font-size="13" fill="#cbd5e1">• Structured Action Annotations</text>
+    <text x="35" y="175" font-size="13" fill="#cbd5e1">• Non-Intimidating Conversational Tone</text>
+    <text x="35" y="195" font-size="13" fill="#cbd5e1">• Scaffolding for K-12 &amp; College Math</text>
+
+    <rect x="20" y="235" width="285" height="135" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="35" y="265" font-size="16" font-weight="bold" fill="#fbbf24">Interactive Dialogue (Q&amp;A)</text>
+    <text x="35" y="290" font-size="13" fill="#cbd5e1">• Grounded by Verified Symbolic Steps</text>
+    <text x="35" y="310" font-size="13" fill="#cbd5e1">• Student Misconception Correction</text>
+    <text x="35" y="330" font-size="13" fill="#cbd5e1">• Socratic Inquiry Support</text>
+    <text x="35" y="350" font-size="13" fill="#cbd5e1">• Context-Aware Equation Answers</text>
+
+    <rect x="20" y="390" width="285" height="135" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="35" y="420" font-size="16" font-weight="bold" fill="#fbbf24">Curriculum Practice Sets</text>
+    <text x="35" y="445" font-size="13" fill="#cbd5e1">• Dynamic Problem Generator</text>
+    <text x="35" y="465" font-size="13" fill="#cbd5e1">• Adaptive Difficulty (Easy, Med, Hard)</text>
+    <text x="35" y="485" font-size="13" fill="#cbd5e1">• Progressive Hint System</text>
+    <text x="35" y="505" font-size="13" fill="#cbd5e1">• Mastery Tracking &amp; Progress Stats</text>
+
+    <rect x="20" y="545" width="285" height="120" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="35" y="575" font-size="16" font-weight="bold" fill="#fbbf24">Answer Evaluation</text>
+    <text x="35" y="600" font-size="13" fill="#cbd5e1">• Algebraic Equivalence Tolerance</text>
+    <text x="35" y="620" font-size="13" fill="#cbd5e1">• Immediate Diagnostic Feedback</text>
+    <text x="35" y="640" font-size="13" fill="#cbd5e1">• Full Solution Step Reveal</text>
+  </g>
+
+  <!-- Connect Feedback from 4 back to 1 -->
+  <path d="M 1375 845 L 1375 870 L 225 870 L 225 845" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="6,6" marker-end="url(#arrow)"/>
+  <text x="800" y="865" font-size="13" fill="#94a3b8" text-anchor="middle">Student Learning Feedback Loop &amp; Interactive KaTeX Updates</text>
+</svg>

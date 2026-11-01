@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" style="background:#0f172a; font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="mGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="mGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="mGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="mGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="mGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="mShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    <marker id="mArrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <!-- Title Banner -->
+  <rect x="50" y="30" width="1500" height="85" rx="16" fill="#1e293b" filter="url(#mShadow)"/>
+  <text x="80" y="75" font-size="28" font-weight="bold" fill="#f8fafc">Hand2Math: Recognition &amp; Solving Methodology</text>
+  <text x="80" y="100" font-size="16" fill="#94a3b8">Multi-Stage Image Processing Pipeline, Adaptive Thresholding, CNN Classification &amp; CAS Execution</text>
+  <rect x="1330" y="52" width="190" height="38" rx="8" fill="#10b981"/>
+  <text x="1425" y="77" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Empirical Workflow</text>
+
+  <!-- 5 Flow Stages in Horizontal Sequence -->
+
+  <!-- STAGE 1: Image Ingestion & Grayscale -->
+  <g transform="translate(50, 150)">
+    <rect width="280" height="680" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#mShadow)"/>
+    <rect width="280" height="50" rx="16" fill="url(#mGrad1)"/>
+    <rect y="35" width="280" height="15" fill="url(#mGrad1)"/>
+    <text x="140" y="32" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Stage 1: Grayscale &amp; Blend</text>
+
+    <!-- Visual Box -->
+    <rect x="15" y="70" width="250" height="160" rx="10" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="140" y="100" font-size="14" font-weight="bold" fill="#22d3ee" text-anchor="middle">Input Stream</text>
+    <rect x="35" y="115" width="210" height="40" rx="6" fill="#1e293b" stroke="#334155"/>
+    <text x="140" y="140" font-size="12" fill="#e2e8f0" text-anchor="middle">Base64 PNG / JPEG / WebP</text>
+    <rect x="35" y="165" width="210" height="45" rx="6" fill="#0891b2" fill-opacity="0.3"/>
+    <text x="140" y="185" font-size="11" fill="#67e8f9" text-anchor="middle">RGBA Channel Check</text>
+    <text x="140" y="200" font-size="10" fill="#cbd5e1" text-anchor="middle">Alpha Over White Canvas (255,255,255)</text>
+
+    <text x="25" y="260" font-size="14" font-weight="bold" fill="#38bdf8">Key Operations:</text>
+    <text x="25" y="290" font-size="13" fill="#cbd5e1">• Convert RGBA/RGB to 8-bit Gray</text>
+    <text x="25" y="315" font-size="13" fill="#cbd5e1">• Autocontrast Stretching (1% cut)</text>
+    <text x="25" y="340" font-size="13" fill="#cbd5e1">• 3x3 Median Filter de-noising</text>
+    <text x="25" y="365" font-size="13" fill="#cbd5e1">• Prevents transparent ink inversion</text>
+
+    <rect x="15" y="420" width="250" height="230" rx="10" fill="#0f172a" stroke="#334155"/>
+    <text x="30" y="450" font-size="13" font-weight="bold" fill="#94a3b8">Mathematical Formula:</text>
+    <text x="30" y="480" font-size="11" font-family="monospace" fill="#38bdf8">I_gray(x,y) = </text>
+    <text x="30" y="500" font-size="11" font-family="monospace" fill="#38bdf8">0.299R + 0.587G + 0.114B</text>
+    <text x="30" y="540" font-size="11" font-family="monospace" fill="#38bdf8">Alpha Compositing:</text>
+    <text x="30" y="560" font-size="11" font-family="monospace" fill="#38bdf8">C = α·C_fg + (1-α)·255</text>
+    <text x="30" y="600" font-size="12" fill="#94a3b8">Ensures transparent canvas marks stay pitch black on clean white.</text>
+  </g>
+
+  <!-- Connect 1 to 2 -->
+  <line x1="330" y1="460" x2="355" y2="460" stroke="#38bdf8" stroke-width="3" marker-end="url(#mArrow)"/>
+
+  <!-- STAGE 2: Adaptive Thresholding -->
+  <g transform="translate(360, 150)">
+    <rect width="280" height="680" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#mShadow)"/>
+    <rect width="280" height="50" rx="16" fill="url(#mGrad2)"/>
+    <rect y="35" width="280" height="15" fill="url(#mGrad2)"/>
+    <text x="140" y="32" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Stage 2: Adaptive Threshold</text>
+
+    <!-- Visual Box -->
+    <rect x="15" y="70" width="250" height="160" rx="10" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="140" y="100" font-size="14" font-weight="bold" fill="#60a5fa" text-anchor="middle">Local Neighborhood Mean</text>
+    <circle cx="140" cy="155" r="35" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="140" y="160" font-size="12" fill="#93c5fd" text-anchor="middle">r = 15 px</text>
+    <text x="140" y="215" font-size="11" fill="#cbd5e1" text-anchor="middle">BoxBlur(r=15) Filter</text>
+
+    <text x="25" y="260" font-size="14" font-weight="bold" fill="#60a5fa">Key Operations:</text>
+    <text x="25" y="290" font-size="13" fill="#cbd5e1">• Computes local mean μ(x,y)</text>
+    <text x="25" y="315" font-size="13" fill="#cbd5e1">• Ink Condition: I &lt; (μ - 12.0)</text>
+    <text x="25" y="340" font-size="13" fill="#cbd5e1">• Upper Ceiling: I &lt; 210.0</text>
+    <text x="25" y="365" font-size="13" fill="#cbd5e1">• Removes uneven background</text>
+
+    <rect x="15" y="420" width="250" height="230" rx="10" fill="#0f172a" stroke="#334155"/>
+    <text x="30" y="450" font-size="13" font-weight="bold" fill="#94a3b8">Binarization Logic:</text>
+    <text x="30" y="480" font-size="11" font-family="monospace" fill="#60a5fa">Ink(x,y) = </text>
+    <text x="30" y="500" font-size="11" font-family="monospace" fill="#60a5fa">[I(x,y) &lt; μ_r(x,y) - C]</text>
+    <text x="30" y="520" font-size="11" font-family="monospace" fill="#60a5fa">  AND [I(x,y) &lt; 210]</text>
+    <text x="30" y="560" font-size="11" font-family="monospace" fill="#60a5fa">Noise Rejection:</text>
+    <text x="30" y="580" font-size="11" font-family="monospace" fill="#60a5fa">Speckles &lt; 8 px Pruned</text>
+    <text x="30" y="615" font-size="12" fill="#94a3b8">Eliminates camera shadows, illumination gradients and pencil smudges.</text>
+  </g>
+
+  <!-- Connect 2 to 3 -->
+  <line x1="640" y1="460" x2="665" y2="460" stroke="#38bdf8" stroke-width="3" marker-end="url(#mArrow)"/>
+
+  <!-- STAGE 3: Connected Component & CNN Classification -->
+  <g transform="translate(670, 150)">
+    <rect width="280" height="680" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#mShadow)"/>
+    <rect width="280" height="50" rx="16" fill="url(#mGrad3)"/>
+    <rect y="35" width="280" height="15" fill="url(#mGrad3)"/>
+    <text x="140" y="32" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Stage 3: CNN Classification</text>
+
+    <!-- Visual Box -->
+    <rect x="15" y="70" width="250" height="160" rx="10" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="140" y="100" font-size="14" font-weight="bold" fill="#c084fc" text-anchor="middle">Normalized 28x28 Patch</text>
+    <rect x="95" y="115" width="90" height="90" rx="4" fill="#1e293b" stroke="#8b5cf6" stroke-dasharray="2,2"/>
+    <text x="140" y="170" font-size="36" font-weight="bold" fill="#e2e8f0" text-anchor="middle">2</text>
+
+    <text x="25" y="260" font-size="14" font-weight="bold" fill="#c084fc">Key Features (24-D):</text>
+    <text x="25" y="290" font-size="13" fill="#cbd5e1">• 4x4 Spatial Zoning Densities</text>
+    <text x="25" y="315" font-size="13" fill="#cbd5e1">• Euler Characteristic &amp; Holes</text>
+    <text x="25" y="340" font-size="13" fill="#cbd5e1">• Mid-Height &amp; Mid-Width Cross</text>
+    <text x="25" y="365" font-size="13" fill="#cbd5e1">• Aspect Ratio &amp; Center of Mass</text>
+
+    <rect x="15" y="420" width="250" height="230" rx="10" fill="#0f172a" stroke="#334155"/>
+    <text x="30" y="450" font-size="13" font-weight="bold" fill="#94a3b8">Confidence Thresholding:</text>
+    <text x="30" y="480" font-size="14" font-weight="bold" fill="#a855f7">θ_conf ≥ 0.85</text>
+    <text x="30" y="510" font-size="12" fill="#cbd5e1">• Plus + vs x outer corner void</text>
+    <text x="30" y="530" font-size="12" fill="#cbd5e1">• Digit 2 solid bottom base check</text>
+    <text x="30" y="550" font-size="12" fill="#cbd5e1">• Digit 8 dual-loop cavity count</text>
+    <text x="30" y="570" font-size="12" fill="#cbd5e1">• Equals = parallel stacked bars</text>
+    <text x="30" y="615" font-size="12" fill="#94a3b8">Filters false positives and guarantees pristine classification.</text>
+  </g>
+
+  <!-- Connect 3 to 4 -->
+  <line x1="950" y1="460" x2="975" y2="460" stroke="#38bdf8" stroke-width="3" marker-end="url(#mArrow)"/>
+
+  <!-- STAGE 4: 2D Spatial & Layout Assembly -->
+  <g transform="translate(980, 150)">
+    <rect width="280" height="680" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#mShadow)"/>
+    <rect width="280" height="50" rx="16" fill="url(#mGrad4)"/>
+    <rect y="35" width="280" height="15" fill="url(#mGrad4)"/>
+    <text x="140" y="32" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Stage 4: 2D Formula Assembly</text>
+
+    <!-- Visual Box -->
+    <rect x="15" y="70" width="250" height="160" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="140" y="95" font-size="13" font-weight="bold" fill="#34d399" text-anchor="middle">2D Vertical Fraction Model</text>
+    <text x="80" y="130" font-size="15" fill="#f8fafc" text-anchor="middle">11 + x</text>
+    <line x1="45" y1="145" x2="115" y2="145" stroke="#34d399" stroke-width="3"/>
+    <text x="80" y="175" font-size="15" fill="#f8fafc" text-anchor="middle">x³</text>
+    <text x="180" y="150" font-size="16" font-weight="bold" fill="#f8fafc" text-anchor="middle">+ 2x(5-x)</text>
+
+    <text x="25" y="260" font-size="14" font-weight="bold" fill="#34d399">Assembly Rules:</text>
+    <text x="25" y="290" font-size="13" fill="#cbd5e1">• Slide Header Stripping (EXAMPLES)</text>
+    <text x="25" y="315" font-size="13" fill="#cbd5e1">• Fraction Bar Line Detection (—, _)</text>
+    <text x="25" y="340" font-size="13" fill="#cbd5e1">• Numerator Top Line Bounding</text>
+    <text x="25" y="365" font-size="13" fill="#cbd5e1">• Denominator Bottom Line Bounding</text>
+
+    <rect x="15" y="420" width="250" height="230" rx="10" fill="#0f172a" stroke="#334155"/>
+    <text x="30" y="450" font-size="13" font-weight="bold" fill="#94a3b8">Syntax Reconstruction:</text>
+    <text x="30" y="480" font-size="12" font-family="monospace" fill="#34d399">Numerator: (11 + x)</text>
+    <text x="30" y="505" font-size="12" font-family="monospace" fill="#34d399">Denominator: (x^3)</text>
+    <text x="30" y="530" font-size="12" font-family="monospace" fill="#34d399">Remainder: + 2x(5 - x)</text>
+    <text x="30" y="565" font-size="12" font-weight="bold" fill="#10b981">Normalized Output:</text>
+    <text x="30" y="590" font-size="11" font-family="monospace" fill="#f8fafc">(11+x)/(x^3) + 2x(5-x)</text>
+    <text x="30" y="625" font-size="12" fill="#94a3b8">Passes clean 1D mathematical formula to CAS engine.</text>
+  </g>
+
+  <!-- Connect 4 to 5 -->
+  <line x1="1260" y1="460" x2="1285" y2="460" stroke="#38bdf8" stroke-width="3" marker-end="url(#mArrow)"/>
+
+  <!-- STAGE 5: Symbolic Resolution & Tutor Generation -->
+  <g transform="translate(1290, 150)">
+    <rect width="260" height="680" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#mShadow)"/>
+    <rect width="260" height="50" rx="16" fill="url(#mGrad5)"/>
+    <rect y="35" width="260" height="15" fill="url(#mGrad5)"/>
+    <text x="130" y="32" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Stage 5: Symbolic Truth</text>
+
+    <!-- Visual Box -->
+    <rect x="15" y="70" width="230" height="160" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="130" y="95" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="middle">SymPy Verified Output</text>
+    <text x="130" y="130" font-size="12" fill="#94a3b8" text-anchor="middle">Final Answer:</text>
+    <text x="130" y="155" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">(-2x⁵ + 10x⁴ + x + 11)/x³</text>
+    <text x="130" y="195" font-size="11" fill="#fcd34d" text-anchor="middle">Zero Discrepancy (✓)</text>
+
+    <text x="25" y="260" font-size="14" font-weight="bold" fill="#fbbf24">Step Generation:</text>
+    <text x="25" y="290" font-size="12" fill="#cbd5e1">• Step 1: Input formulation</text>
+    <text x="25" y="315" font-size="12" fill="#cbd5e1">• Step 2: Expand polynomial</text>
+    <text x="25" y="340" font-size="12" fill="#cbd5e1">• Step 3: Common denominator</text>
+    <text x="25" y="365" font-size="12" fill="#cbd5e1">• Step 4: Verification check</text>
+
+    <rect x="15" y="420" width="230" height="230" rx="10" fill="#0f172a" stroke="#334155"/>
+    <text x="25" y="450" font-size="13" font-weight="bold" fill="#94a3b8">Pedagogical Delivery:</text>
+    <text x="25" y="480" font-size="12" fill="#cbd5e1">• Structured Actions</text>
+    <text x="25" y="505" font-size="12" fill="#cbd5e1">• Interactive KaTeX Rendering</text>
+    <text x="25" y="530" font-size="12" fill="#cbd5e1">• Socratic Q&amp;A Chat Tutor</text>
+    <text x="25" y="555" font-size="12" fill="#cbd5e1">• Practice Generation</text>
+    <text x="25" y="605" font-size="12" font-weight="bold" fill="#f59e0b">Guaranteed True Result</text>
+  </g>
+</svg>
