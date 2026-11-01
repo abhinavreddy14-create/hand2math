@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends python3 python3
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 RUN python3 -m pip install --no-cache-dir sympy numpy pillow
 
